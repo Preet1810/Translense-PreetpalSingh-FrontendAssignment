@@ -1,6 +1,4 @@
 import logo from "./logo.png"
-import leaf1 from "./leaf1.png"
-import leaf2 from "./leaf2.png"
 import hero from "./hero.png"
 import bulb from "./bulb.png"
 import earth from "./earth.png"
@@ -22,22 +20,26 @@ import bene3 from "./bene3.png"
 import bene4 from "./bene4.png"
 import bene5 from "./bene5.png"
 import bene6 from "./bene6.png"
-import fire from "./fire.png"
-import atlassian from "./atlassian.png"
-import dropbox from "./dropbox.png"
-import google from "./google.png"
-import shopify from "./shopify.png"
-import slack from "./slack.png"
-import uber from "./uber.png"
 import vidpic from "./vidpic.png"
+import dellc from "./dellc.png"
+import nikec from "./nikec.png"
+import spotifyc from "./spotifyc.png"
+import gpng from "./gpng.png"
+import dboxpng from "./dboxpng.png"
+import msoft from "./msoft.png"
+import pal from "./pal.png"
+import slackpng from "./slackpng.png"
+import atla from "./atla.png"
+import fire from "./fire.png"
+
+
+
 
 
 
 
 export {
     logo,
-    leaf1,
-    leaf2,
     hero,
     leafhand,
     nuclear,
@@ -59,12 +61,15 @@ export {
     bene4,
     bene5,
     bene6,
-    fire,
-    atlassian,
-    dropbox,
-    google,
-    shopify,
-    slack,
-    uber,
-    vidpic
+    vidpic,
+    spotifyc,
+    nikec,
+    dellc,
+    gpng,
+    dboxpng,
+    msoft,
+    pal,
+    slackpng,
+    atla,
+    fire
 }

@@ -1,5 +1,5 @@
-import React from 'react'
-import { sponsors } from '../constants'
+import React from 'react';
+import { sponsors } from '../constants';
 
 const Sponsors=() => {
     return (
@@ -19,7 +19,7 @@ const Sponsors=() => {
                     >
                         <img
                             id={`benefactor-img-${index}`}
-                            className="h-auto max-w-full rounded-lg mb-4 transition-filter duration-200 ease-in-out group-hover:brightness-70"
+                            className="h-auto max-w-full rounded-lg mb-4 transition-all duration-200 ease-in-out group-hover:grayscale-0 grayscale cursor-pointer"
                             src={benefactor.img}
                             alt="IDK"
                         />
@@ -30,4 +30,4 @@ const Sponsors=() => {
     )
 }
 
-export default Sponsors
+export default Sponsors;

@@ -1,4 +1,31 @@
-import { bulb, earth, family, leafhand, mask, nuclear, hands, people, handshake, planted, bene1, bene2, bene3, bene4, bene5, bene6, fire, google, atlassian, shopify, slack, dropbox, uber, } from "../assets"
+import {
+    bulb,
+    earth,
+    family,
+    leafhand,
+    mask,
+    nuclear,
+    hands,
+    people,
+    handshake,
+    planted,
+    bene1,
+    bene2,
+    bene3,
+    bene4,
+    bene5,
+    bene6,
+    fire,
+    nikec,
+    dellc,
+    spotifyc,
+    gpng,
+    dboxpng,
+    msoft,
+    pal,
+    slackpng,
+    atla
+} from "../assets"
 
 export const navLinks=[
     {
@@ -137,32 +164,31 @@ export const caseStudy=[
 
 export const sponsors=[
     {
-        img: google,
+        img: gpng,
     },
     {
-        img: slack,
+        img: slackpng,
     },
     {
-        img: atlassian,
+        img: dboxpng
     },
     {
-        img: shopify,
+        img: nikec,
     },
     {
-        img: dropbox
-    },
-
-    {
-        img: shopify,
+        img: dellc,
     },
     {
-        img: atlassian,
+        img: msoft
     },
     {
-        img: google,
+        img: pal
     },
     {
-        img: dropbox
+        img: spotifyc
+    },
+    {
+        img: atla
     },
 ]
 
