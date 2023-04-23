@@ -31,7 +31,7 @@ import pal from "./pal.png"
 import slackpng from "./slackpng.png"
 import atla from "./atla.png"
 import fire from "./fire.png"
-
+import nature from "./nature.mp4"
 
 
 
@@ -71,5 +71,6 @@ export {
     pal,
     slackpng,
     atla,
-    fire
+    fire,
+    nature
 }

@@ -1,5 +1,6 @@
-import React from 'react'
-import { vidpic } from "../assets"
+import React from 'react';
+import { nature, vidpic } from "../assets";
+
 const SignUp=() => {
     return (
         <div id="contact-us" className='flex flex-1 px-36 py-16'>
@@ -17,11 +18,14 @@ const SignUp=() => {
                     Donate Now
                 </button>
             </div>
-            <div className='flex-1 flex justify-center'> {/* Added flex and justify-center classes */}
-                <img className='' src={vidpic} alt="video" />
+            <div className='flex-1 flex justify-center'>
+                <div className="relative w-full h-auto">
+                    <video src={nature} controls poster={vidpic} className="w-full h-auto">
+                    </video>
+                </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default SignUp;
